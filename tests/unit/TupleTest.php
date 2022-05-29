@@ -110,6 +110,5 @@ class TupleTest extends TestCase
         $tuple->next();
         $this->assertNull($tuple->current());
         $this->assertNull($tuple->key());
-
     }
 }

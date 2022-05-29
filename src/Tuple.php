@@ -38,13 +38,11 @@ abstract class Tuple implements Countable, Iterator
     /**
      * @inheritDoc
      */
-    public function next(): ?int
+    public function next(): void
     {
         $positionDump = (!$this->isEmpty() && $this->valid()) ? ++$this->position : null;
         $positionDump = ($this->valid()) ? $positionDump : null;
         $this->position = $positionDump;
-
-        return $this->position;
     }
 
     public function isEmpty(): bool

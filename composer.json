@@ -1,5 +1,5 @@
 {
-    "name": "arslanimamutdinov/component-template",
+    "name": "rocketfellows/tuple",
     "authors": [
         {
             "name": "Arslan Imamutdinov",
@@ -12,5 +12,15 @@
         "phpunit/phpunit": "^8.5",
         "phpstan/phpstan": "^0.12.90",
         "squizlabs/php_codesniffer": "3.6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "rocketfellows\\tuple\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "rocketfellows\\tuple\\tests\\": "tests/"
+        }
     }
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1653829210">
-  <project timestamp="1653829210">
+<coverage generated="1653942513">
+  <project timestamp="1653942513">
     <file name="/app/src/Tuple.php">
       <class name="rocketfellows\tuple\Tuple" namespace="global">
         <metrics complexity="16" methods="8" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="12" elements="20" coveredelements="20"/>
